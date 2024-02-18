@@ -1,0 +1,13 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.page__block {
+    gap: 16px;
+
+    @include screen-l {
+        gap: 12px;
+    }
+
+    @include screen-xs {
+        gap: 8px;
+    }
+}

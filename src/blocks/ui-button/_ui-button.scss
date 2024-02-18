@@ -1,0 +1,15 @@
+@use '../../sass/partitials/config' as *;
+
+.ui-button {
+    background: $color-accent;
+    border-radius: 16px;
+    border: $border;
+    color: $color-white;
+    cursor: pointer;
+    font-family: $font-secondary;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}

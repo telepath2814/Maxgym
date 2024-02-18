@@ -1,0 +1,16 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.team__member-name {
+    color: $color-accent;
+    font-family: $font-secondary;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 56px;
+    text-align: center;
+
+    @include screen-l {
+        line-height: 44px;
+        font-size: 44px;
+    }
+}

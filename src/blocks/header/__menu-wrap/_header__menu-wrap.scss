@@ -1,0 +1,26 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.header__menu-wrap {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 16px;
+
+    @include screen-l {
+        padding: 12px;
+
+        .ui-button-m {
+            display: none;
+        }
+
+        .ui-button-xs {
+            display: block;
+        }
+    }
+
+    @include screen-xs {
+        padding: 8px;
+    }
+}

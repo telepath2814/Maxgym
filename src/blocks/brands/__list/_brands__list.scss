@@ -1,0 +1,12 @@
+.brands__list {
+    animation: ticker 25s linear infinite paused;
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+}
+
+@keyframes ticker {
+    to {
+        transform: translate(-100%);
+    }
+}

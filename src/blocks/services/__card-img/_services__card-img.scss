@@ -1,0 +1,19 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.services__card-img {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+
+    img {
+        height: 110%;
+
+        @include screen-m {
+            height: 65%;
+        }
+    }
+}

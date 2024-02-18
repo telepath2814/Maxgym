@@ -1,0 +1,24 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+
+.header__menu {
+    align-items: center;
+    backdrop-filter: $backdrop-filter;
+    background: $background;
+    border-radius: 16px;
+    border: $border;
+    display: grid;
+    grid:  auto / max-content auto;
+    justify-items: center;
+    padding: 16px;
+    width: 100%;
+
+    @include screen-l {
+        padding: 12px;
+    }
+
+    @include screen-xs {
+        padding: 8px;
+    }
+}

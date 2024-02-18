@@ -1,0 +1,19 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+
+.achievements-value {
+    font-family: $font-secondary;
+    font-size: 56px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: lowercase;
+
+    @include screen-m {
+        font-size: 40px;
+    }
+
+    @include screen-s {
+        font-size: 24px;
+    }
+}

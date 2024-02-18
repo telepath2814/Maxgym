@@ -1,0 +1,6 @@
+@use '../../../sass/partitials/config' as *;
+
+.ui-switch__slider {
+    position: absolute;
+    transition: transform $duration-m;
+}

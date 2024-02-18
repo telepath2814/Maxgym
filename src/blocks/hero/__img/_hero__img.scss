@@ -1,0 +1,5 @@
+@use '../../..//sass/partitials/mixins' as *;
+
+.hero__img {
+    transform: translateX(72px);
+}

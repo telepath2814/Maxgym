@@ -1,0 +1,10 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.header__mobile {
+    flex-shrink: 0;
+    display: none;
+
+    @include screen-m {
+        display: block;
+    }
+}

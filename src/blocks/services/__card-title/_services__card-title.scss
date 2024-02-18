@@ -1,0 +1,26 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.services__card-title {
+    color: $color-accent;
+    font-family: $font-secondary;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 56px;
+    
+    @include screen-l {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    @include screen-m {
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    @include screen-s {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}

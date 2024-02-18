@@ -1,0 +1,17 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.team__member-achievements {
+    list-style-type: disc;
+    opacity: 0;
+    transition: opacity $duration-m;
+    width: 70%;
+
+    @include screen-l {
+        width: 80%;
+    }
+
+    @include screen-m {
+        width: 70%;
+    }
+}

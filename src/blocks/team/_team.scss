@@ -1,0 +1,12 @@
+@use '../../sass/partitials/mixins' as *;
+
+.team {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+    margin: 0 auto;
+    justify-items: center;
+
+    @include screen-m {
+        grid: repeat(4, 1fr) / 1fr;
+    }
+}

@@ -1,0 +1,9 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.header__logo {
+    width: 128px;
+
+    @include screen-s {
+        width: 80px;
+    }
+}

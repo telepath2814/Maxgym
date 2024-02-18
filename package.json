@@ -1,0 +1,16 @@
+{
+  "name": "maxgym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass" : "sass --watch src/sass/style.scss src/css/style.css --no-source-map"
+  },
+  "keywords": [],
+  "author": "Timur Syrtsov telepath2814@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.0"
+  }
+}

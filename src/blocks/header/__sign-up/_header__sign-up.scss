@@ -1,0 +1,9 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.header__sign-up {
+    display: none;
+
+    @include screen-m {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+@use '../../sass/partitials/mixins' as *;
+
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content:center;
+    margin: 0 auto 160px;
+    max-width: 1024px;
+
+    @include screen-m {
+        gap: 24px;
+        margin-bottom: 128px;
+        max-width: 640px;
+    }
+
+    @include screen-s {
+        gap: 16px;
+        margin-bottom: 96px;
+        max-width: 100%;
+    }
+}

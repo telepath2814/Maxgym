@@ -1,0 +1,12 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.faq__item-answer {
+    margin-top: 32px;
+    opacity: 0;
+    transition: opacity $duration-m;
+
+    @include screen-m {
+        margin-top: 24px;
+    }
+}

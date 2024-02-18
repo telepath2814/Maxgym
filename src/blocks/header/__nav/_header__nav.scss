@@ -1,0 +1,11 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    @include screen-l {
+        display: none;
+    }
+}

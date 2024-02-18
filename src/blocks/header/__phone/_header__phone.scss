@@ -1,0 +1,26 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.header__phone {
+    display: none;
+    font-family: $font-secondary;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 18px;
+    text-transform: uppercase;
+    width: 100%;
+
+    @include screen-l {
+        display: flex;
+    }
+
+    @include screen-m {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    @include screen-s {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

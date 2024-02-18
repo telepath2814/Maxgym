@@ -1,0 +1,23 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.services__card {
+    display: flex;
+    flex-flow: row;
+    height: 512px;
+    justify-content: flex-end;
+    overflow: hidden;
+    width: 100%;
+
+    @include screen-l {
+        height: 400px;
+    }
+    
+    @include screen-m {
+        height: 720px;
+        justify-content: center;
+        max-width: 480px;
+    }
+    @include screen-s {
+        height: 640px;
+    }
+}

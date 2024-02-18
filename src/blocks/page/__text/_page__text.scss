@@ -1,0 +1,8 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.page__text {
+    @include screen-s {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

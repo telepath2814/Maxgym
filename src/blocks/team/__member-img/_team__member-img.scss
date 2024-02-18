@@ -1,0 +1,6 @@
+@use '../../../sass/partitials/config' as *;
+
+.team__member-img {
+    height: 150%;
+    transition: all $duration-m;
+}

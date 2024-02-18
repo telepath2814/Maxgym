@@ -1,0 +1,11 @@
+@use '../../sass/partitials/mixins' as *;
+
+.faq {
+    display: grid;
+    grid: repeat(4, auto) / auto auto;
+    justify-content: center;
+    
+    @include screen-m {
+        grid: repeat(8, auto) / auto;
+    }
+}

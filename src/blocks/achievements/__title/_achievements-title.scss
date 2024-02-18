@@ -1,0 +1,16 @@
+@use '../../../sass/partitials/mixins' as *;
+
+
+.achievements-title {
+    margin-top: 16px;
+    text-align: center;
+    text-transform: lowercase;
+    
+    @include screen-m {
+        margin-top: 12px;
+    }
+
+    @include screen-s {
+        margin-top: 8px;
+    }
+}

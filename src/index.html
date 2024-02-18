@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MAXGYM</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="shortcut icon" href="/assets/icons/favicon16x16.ico" type="image/x-icon">
+   <script src="./js/main.js" type="module" defer></script>
+</head>
+
+<body>
+   <!-- BACKGROUND -->
+   <div class="background"></div>
+   <!-- HEADER -->
+   <header class="header">
+      <div class="page__block header__menu-wrap">
+         <div class="header__menu">
+            <a class="header__logo" href="#">
+               <img src="/assets/images/logo-maxgym.svg" alt="MAXGYM">
+            </a>
+            <nav class="header__nav">
+               <a href="#" class="header__nav-link">Про нас</a>
+               <a href="#" class="header__nav-link">Послуги</a>
+               <a href="#" class="header__nav-link">Розклад</a>
+               <a href="#" class="header__nav-link">Цiни</a>
+               <a href="#" class="header__nav-link">FAQ</a>
+               <a href="#" class="header__nav-link">Кальк. ІМТ</a>
+               <a href="#" class="header__nav-link">Контакти</a>
+               <a href="#" class="header__nav-link">Укр</a>
+            </nav>
+            <a class="header__phone" href="tel:+380443443804">+38 044 344 3804</a>
+         </div>
+         <button class="ui-button ui-button-m header__sign-up" type="button">Записатися</button>
+         <button class="ui-button ui-button-xs header__mobile" type="button">
+            <img src="/assets/images/burger.svg" alt="">
+         </button>
+      </div>
+   </header>
+   <!-- MAIN -->
+   <main>
+      <!-- HERO -->
+      <section class="page__section">
+         <div class="page__element hero">
+            <picture class="hero__img-wrap">
+               <source srcset="/assets/images/hero.webp" type="image/webp">
+               <img class="hero__img" src="/assets/images/hero.png">
+            </picture>
+            <div class="hero__title-wrap">
+               <img src="/assets/images/logo-maxgym.svg" alt="MAXGYM">
+               <h1 class="hero__title">Фітнес з максимальним<br>результатом!</h1>
+               <button class="ui-button ui-button-m" type="button">Записатися</button>
+            </div>
+         </div>
+         <div class="brands">
+            <div class="brands__list">
+               <img class="brands__logo" src="/assets/images/logo-tunturi.svg" alt="Tunturi">
+               <img class="brands__logo" src="/assets/images/logo-precor.svg" alt="Precor">
+               <img class="brands__logo" src="/assets/images/logo-technogym.svg" alt="Technogym">
+               <img class="brands__logo" src="/assets/images/logo-cybex.svg" alt="Cybex">
+               <img class="brands__logo" src="/assets/images/logo-life-fitness.svg" alt="Life Fitness">
+            </div>
+         </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="page__section">
+         <h1 class="page__section-title">Про нас</h1>
+         <div class="page__element about">
+            <h2 class="about__title">Ваш успіх <em>- це наше зобов'язання!</em></h2>
+            <p class="page__text about__description">
+               Завдяки сучасному обладнанню, досвідченим тренерам і зручній атмосфері ми
+               здатні бути максимально ефективними в галузі фітнесу і готові надати вам ресурси і підтримку,
+               необхідні для досягнення неймовірних результатів.
+            </p>
+         </div>
+         <!-- ACHIEVEMENTS -->
+         <div class="achievements">
+            <div class="achievements-item page__element page__element--color-accent">
+               <h3 class="achievements-value ">2000м²</h3>
+               <p class="page__text achievements-title">Площа залу</p>
+            </div>
+            <div class="achievements-item page__element page__element--color-accent">
+               <h3 class="achievements-value">15000+</h3>
+               <p class="page__text achievements-title">Годин тренувань</p>
+            </div>
+            <div class="achievements-item page__element page__element--color-accent">
+               <h3 class="achievements-value">3000+</h3>
+               <p class="page__text achievements-title">Кліентів</p>
+            </div>
+         </div>
+         <!-- TEAM -->
+         <div class="page__block team">
+            <div class="team__member-card page__element">
+               <picture class="team__member-img-wrap">
+                  <source srcset="/assets/images/team-member1.webp" type="image/webp">
+                  <img class="team__member-img" src="/assets/images/team-member1.png">
+               </picture>
+               <div class="team__member-details">
+                  <h3 class="team__member-name">Максим<br>Ткаченко</h3>
+                  <ol class="page__text team__member-achievements">
+                     <li>Тренер 3-ї категорії з групових і персональних програм.</li>
+                     <li>Cертифікат «REPS» «TRX».</li>
+                     <li>Сертифікований тренер «Українського тренерської реєстру».</li>
+                     <li>Учасник українських та міжнародних змагань з бігу.</li>
+                     <li>МС з академічного веслування, КМС з велоспорту.</li>
+                  </ol>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+            <div class="team__member-card page__element">
+               <picture class="team__member-img-wrap">
+                  <source srcset="/assets/images/team-member2.webp" type="image/webp">
+                  <img class="team__member-img" src="/assets/images/team-member2.png">
+               </picture>
+               <div class="team__member-details">
+                  <h3 class="team__member-name">Оксана<br>Мельник</h3>
+                  <ol class="page__text team__member-achievements">
+                     <li>Тренер 3-ї категорії з групових і персональних програм.</li>
+                     <li>Cертифікат «REPS», «Procedos».</li>
+                     <li>Cертифікат «Функціональний тренінг з елементами кросфіта».</li>
+                     <li>Cертифікат «Основи дієтології та нутриціології».</li>
+                     <li>Учасниця змагань з легкої атлетики. </li>
+                  </ol>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+            <div class="team__member-card page__element">
+               <picture class="team__member-img-wrap">
+                  <source srcset="/assets/images/team-member3.webp" type="image/webp">
+                  <img class="team__member-img" src="/assets/images/team-member3.png">
+               </picture>
+               <div class="team__member-details">
+                  <h3 class="team__member-name">Павло<br>Шевчук</h3>
+                  <ol class="page__text team__member-achievements">
+                     <li>Тренер 3-ї категорії з групових і персональних програм.</li>
+                     <li>Cертифікат «REPS», «TRX».</li>
+                     <li>Cертифікат «Силовий Тренінг», «HIIT».</li>
+                     <li>Cертифікат «Основи дієтології та нутриціології».</li>
+                     <li>Чемпіон Києва з Workout, КМС з армліфтингу.</li>
+                  </ol>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+            <div class="team__member-card page__element">
+               <picture class="team__member-img-wrap">
+                  <source srcset="/assets/images/team-member4.webp" type="image/webp">
+                  <img class="team__member-img" src="/assets/images/team-member4.png">
+               </picture>
+               <div class="team__member-details">
+                  <h3 class="team__member-name">Софія<br>Бондар</h3>
+                  <ol class="page__text team__member-achievements">
+                     <li>Тренер 3-ї категорії з групових і персональних програм.</li>
+                     <li>Cертифікат «REPS», «Procedos».</li>
+                     <li>Сертифікований тренер «Українського тренерської реєстру».</li>
+                     <li>Учасниця «Profit Convention» і «Nike Convention».</li>
+                     <li>КМС з художньої гімнастики.</li>
+                  </ol>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- SERVICES -->
+      <section class="page__section">
+         <h1 class="page__section-title">Послуги</h1>
+         <div class="page__block services">
+            <div class="page__element services__card">
+               <picture class="services__card-img">
+                  <source srcset="/assets/images/services-personal.webp" type="image/webp">
+                  <img src="/assets/images/services-personal.png">
+               </picture>
+               <div class="services__card-details-wrap">
+                  <div class="services__card-details">
+                     <h3 class="services__card-title">Персональні<br>тренування</h3>
+                     <p class="page__text services__card-info">
+                        Покращте свою фізичну форму за допомогою індивідуальних тренувань,
+                        розроблених нашими експертами спеціально для вас.
+                     </p>
+                  </div>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+            <div class="page__element services__card services__card--mirror">
+               <picture class="services__card-img">
+                  <source srcset="/assets/images/services-group.webp" type="image/webp">
+                  <img src="/assets/images/services-group.png">
+               </picture>
+               <div class="services__card-details-wrap">
+                  <div class="services__card-details">
+                     <h3 class="services__card-title">Групові<br>тренування</h3>
+                     <p class="page__text services__card-info">
+                        Відчуйте енергію групи товаришів та приєднуйтесь до наших занять для мотивації,
+                        спілкування та максимальних результатів.
+                     </p>
+                  </div>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+            <div class="page__element services__card">
+               <picture class="services__card-img">
+                  <source srcset="/assets/images/services-nutrition.webp" type="image/webp">
+                  <img src="/assets/images/services-nutrition.png">
+               </picture>
+               <div class="services__card-details-wrap">
+                  <div class="services__card-details">
+                     <h3 class="services__card-title">Фітнес<br>харчування</h3>
+                     <p class="page__text services__card-info">
+                        Прикорьте свій шлях до здоров'я за допомогою індивідуальних консультацій
+                        нашого дієтолога та спортивного нутриціолога.
+                     </p>
+                  </div>
+                  <button class="ui-button ui-button-m" type="button">Записатися</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- PRICES -->
+      <section class="page__section">
+         <h1 class="page__section-title">Цiни</h1>
+         <div class="ui-switch">
+            <span class="ui-button ui-button-s ui-switch__slider"></span>
+            <p class="ui-switch__case">Місяць</p>
+            <p class="ui-switch__case">Рік</p>
+         </div>
+         <div class="page__block prices">
+            <div class="page__element prices__card">
+               <div class="prices__card-details">
+                  <img class="prices__card-logo" src="/assets/images/logo-maxgym.svg" alt="">
+                  <h2 class="prices__card-title">Базовий</h2>
+                  <ol class="page__text prices__card-services">
+                     <li>Відвідування всіх зон клубу (тренажерний зал, кардіо, пілатес).</li>
+                     <li>Групові програми.</li>
+                     <li>Ознайомлювальне тренування з тренером.</li>
+                     <li>Пробний масаж.</li>
+                     <li>Комплект рушників.</li>
+                  </ol>
+               </div>
+               <div class="prices__card-offer">
+                  <div class="prices__card-price-wrap">
+                     <span class="prices__card-price">24 000 грн.</span>
+                     <span class="prices__card-price">2 600 грн.</span>
+                  </div>
+                  <button class="ui-button ui-button-m" type="button">Замовити</button>
+               </div>
+            </div>
+            <div class="page__element prices__card">
+               <div class="prices__card-details">
+                  <img class="prices__card-logo" src="/assets/images/logo-maxgym.svg" alt="">
+                  <h2 class="prices__card-title">Базовий+</h2>
+                  <ol class="page__text prices__card-services">
+                     <li>Відвідування всіх зон клубу (тренажерний зал, кардіо, пілатес).</li>
+                     <li>Групові програми.</li>
+                     <li>Консультація дієтолога.</li>
+                     <li>3 тренувань із тренером.</li>
+                     <li>3 сеансів масажу.</li>
+                     <li>Комплект рушників.</li>
+                     <li>Заморозка картки. </li>
+                  </ol>
+               </div>
+               <div class="prices__card-offer">
+                  <div class="prices__card-price-wrap">
+                     <span class="prices__card-price">28 000 грн.</span>
+                     <span class="prices__card-price">3 200 грн.</span>
+                  </div>
+                  <button class="ui-button ui-button-m" type="button">Замовити</button>
+               </div>
+            </div>
+            <div class="page__element prices__card page__element--color-accent">
+               <div class="prices__card-details">
+                  <img class="prices__card-logo" src="/assets/images/logo-maxgym-monochrome.svg" alt="">
+                  <h2 class="prices__card-title">Преміум</h2>
+                  <ol class="page__text prices__card-services">
+                     <li>Відвідування всіх premium-зон клубу (тренажерний зал, кардіо, пілатес).</li>
+                     <li>Premium-групові програми.</li>
+                     <li>Консультація дієтолога.</li>
+                     <li>5 тренувань із тренером.</li>
+                     <li>5 сеансів масажу.</li>
+                     <li>Комплект рушників.</li>
+                     <li>Оренда персональної шафи.</li>
+                     <li>Прання форми.</li>
+                     <li>Заморозка картки. </li>
+                  </ol>
+               </div>
+               <div class="prices__card-offer">
+                  <div class="prices__card-price-wrap">
+                     <span class="prices__card-price">36 000 грн.</span>
+                     <span class="prices__card-price">4 000 грн.</span>
+                  </div>
+                  <button class="ui-button ui-button-m ui-button--black" type="button">Замовити</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FAQ -->
+      <section class="page__section">
+         <h1 class="page__section-title">FAQ</h1>
+         <div class="page__block faq">
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Як часто мені слід тренуватися щотижня?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Частота тренувань залежить від ваших цілей у фітнесі та поточного рівня фізичної підготовки. Для
+                  загального стану здоров'я виконуйте щонайменше 150 хвилин вправ середньої інтенсивності або 75 хвилин
+                  вправ високої інтенсивності на тиждень, розподілених щонайменше на три дні.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Чи потрібно наймати особистого тренера?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Особистий тренер може надати рекомендації, мотивацію та індивідуальні плани тренувань. Вони також можуть
+                  допомогти забезпечити правильну техніку, роблячи ваші тренування більш ефективними та знижуючи ризик
+                  травм. Подумайте про найм тренера, якщо вам потрібна додаткова підтримка та досвід.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Чи можу я тренуватися, якщо в мене травма?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Це залежить від характеру і тяжкості травми. Проконсультуйтеся з медичним працівником,
+                  перш ніж починати або змінювати будь-які тренування. У багатьох випадках для підтримки та
+                  відновлення можна використовувати модифіковані вправи або вправи з низьким навантаженням.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Як підтримувати мотивацію для регулярних тренувань?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Щоб залишатися мотивованим, ставте реалістичні цілі, змінюйте свої тренування, і відстежуйте свій
+                  прогрес. Відзначайте маленькі досягнення та пам’ятайте, що послідовність є ключовою. Займайтеся тим,
+                  що вам подобається, щоб зробити фізичні вправи приємною частиною вашої рутини.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Який найкращий час для тренувань?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Найкращий час для вправ – це час, який відповідає вашому розкладу та забезпечує послідовність.
+                  Деякі люди віддають перевагу ранковому заряду енергії, інші вважають вечір зручнішим.
+                  Зрештою, виберіть час, який відповідає вашому стилю життя та полегшує дотримання вашої фітнес-рутини.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Чи можна тренуватися на голодний шлунок?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Це залежить від особистих уподобань і типу тренування. Деякі люди віддають перевагу вправам на голодний
+                  шлунок для легких тренувань, тоді як іншим може знадобитися невеликий перекус для заряду енергії.
+                  Для більш інтенсивних занять подумайте про збалансоване харчування за 2-3 години до тренування.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Як правильно вибрати тренування?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Визначте свої конкретні фітнес-цілі, будь то втрата ваги, збільшення м’язової маси або загальне здоров’я.
+                  Потім виберіть тренування, які відповідають цим цілям. Проконсультуйтеся з професіоналами з фітнесу,
+                  такими як наші тренери, щоб створити детальний і ефективний план вправ, адаптований до ваших цілей.
+               </p>
+            </div>
+            <div class="page__element faq__item">
+               <div class="faq__item-title">
+                  <h2 class="faq__item-question">Які переваги мають силові тренування?</h2>
+                  <button class="ui-button ui-button-xs faq__button" type="button">
+                     <div class="faq__button-line-h"></div>
+                     <div class="faq__button-line-v"></div>
+                  </button>
+               </div>
+               <p class="page__text faq__item-answer">
+                  Силові тренування пропонують численні переваги, включаючи збільшення м’язової маси, покращення
+                  метаболізму, підвищення щільності кісткової тканини та кращу функціональну форму. Вони також відіграють
+                  ключову роль у профілактиці травм і можуть сприяти більш підтягнутій і рельєфній статурі.
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-- CONTACTS -->
+      <section class="page__section">
+         <h1 class="page__section-title">Контакти</h1>
+      </section>
+   </main>
+</body>
+
+</html>

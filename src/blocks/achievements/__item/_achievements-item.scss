@@ -1,0 +1,23 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+
+.achievements-item {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    flex-shrink: 0;
+    height: 288px;
+    justify-content: center;
+    width: 288px;
+
+    @include screen-m {
+        height: 216px;
+        width: 216px;
+    }
+
+    @include screen-s {
+        height: 160px;
+        width: 160px;
+    }
+}

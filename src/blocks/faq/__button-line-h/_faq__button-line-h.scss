@@ -1,0 +1,10 @@
+@use '../../../sass/partitials/config' as *;
+
+.faq__button-line-h {
+    background: $color-white;
+    height: 2px;
+    position: absolute;
+    transform-origin: center;
+    transform: translateX(16px);
+    width: 32px;
+}

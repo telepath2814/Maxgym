@@ -1,0 +1,7 @@
+@use '../../../../sass/partitials/config' as *;
+
+.team__member-img--hide {
+    filter: $backdrop-filter;
+    height: 100%;
+    opacity: 0.65;
+}

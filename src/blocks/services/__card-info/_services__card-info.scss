@@ -1,0 +1,10 @@
+@use '../../../sass/partitials/mixins' as *;
+
+.services__card-info {
+    margin: 32px 0;
+
+    @include screen-m {
+        margin: 24px 0;
+        text-align: center;
+    }
+}

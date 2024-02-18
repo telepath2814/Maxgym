@@ -1,0 +1,17 @@
+@use '../../sass/partitials/mixins' as *;
+
+.prices {
+    display: grid;
+    grid: 1fr / repeat(6, 1fr);
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+
+    @include screen-l {
+        grid: 1fr 1fr / repeat(4, 1fr);
+    }
+
+    @include screen-m {
+        grid: repeat(3, 1fr) / 1fr;
+    }
+}

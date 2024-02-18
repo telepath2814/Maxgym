@@ -1,0 +1,17 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.page__element {
+    backdrop-filter: $backdrop-filter;
+    background: $background;
+    border-radius: 32px;
+    border: $border;
+
+    @include screen-m {
+        border-radius: 24px;
+    }
+
+    @include screen-s {
+        border-radius: 16px;
+    }
+}

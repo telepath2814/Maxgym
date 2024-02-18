@@ -1,0 +1,21 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.page__section-title {
+    font-family: $font-secondary;
+    font-size: 56px;
+    font-weight: 500;
+    margin: 0 auto 128px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include screen-m {
+        margin: 0 auto 96px;
+        font-size: 48px;
+    }
+
+    @include screen-s {
+        margin: 0 auto 64px;
+        font-size: 32px;
+    }
+}

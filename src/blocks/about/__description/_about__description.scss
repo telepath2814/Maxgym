@@ -1,0 +1,15 @@
+@use '../../..//sass/partitials/mixins' as *;
+
+.about__description {
+    align-self: flex-end;
+    max-width: 640px;
+
+    @include screen-m {
+        max-width: 400px;
+    }
+
+    @include screen-s {
+        align-self: flex-start;
+        max-width: 100%;
+    }
+}

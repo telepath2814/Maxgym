@@ -1,0 +1,17 @@
+@use '../../../../sass/partitials/mixins' as *;
+
+.services__card--mirror {
+    justify-content: flex-start;
+
+    .services__card-img {
+        align-items: flex-end;
+
+        img {
+            transform: scaleX(-1);
+        }
+    }
+
+    @include screen-m {
+        justify-content: center;
+    }
+}

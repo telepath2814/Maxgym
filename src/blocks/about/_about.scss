@@ -1,0 +1,23 @@
+@use '../../sass/partitials/config' as *;
+@use '../../sass/partitials/mixins' as *;
+
+
+.about {
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+    margin: 0 auto 160px;
+    padding: 48px 52px;
+
+    @include screen-m {
+        gap: 24px;
+        margin: 0 auto 128px;
+        max-width: 440px;
+        padding: 16px 24px;
+    }
+
+    @include screen-s {
+        margin: 0 auto 96px;
+        padding: 8px 12px;
+    }
+}

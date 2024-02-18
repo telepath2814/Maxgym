@@ -1,0 +1,11 @@
+@use '../../../sass/partitials/config' as *;
+
+.faq__button-line-v {
+    background: $color-white;
+    height: 2px;
+    position: absolute;
+    transform-origin: center;
+    transform: translateX(16px) rotate(-90deg);
+    transition: transform $duration-m;
+    width: 32px;
+}

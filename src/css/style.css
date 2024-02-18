@@ -1,0 +1,1255 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-MediumItalic.eot");
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("Roboto-MediumItalic.eot?#iefix") format("embedded-opentype"), url("Roboto-MediumItalic.woff") format("woff"), url("Roboto-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Italic.eot");
+  src: local("Roboto Italic"), local("Roboto-Italic"), url("Roboto-Italic.eot?#iefix") format("embedded-opentype"), url("Roboto-Italic.woff") format("woff"), url("Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Bold.eot");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("Roboto-Bold.woff") format("woff"), url("Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.eot");
+  src: local("Roboto"), local("Roboto-Regular"), url("Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("Roboto-Regular.woff") format("woff"), url("Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Medium.eot");
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("Roboto-Medium.woff") format("woff"), url("Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-BoldItalic.eot");
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Roboto-BoldItalic.woff") format("woff"), url("Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-ThinItalic.eot");
+  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("Roboto-ThinItalic.eot?#iefix") format("embedded-opentype"), url("Roboto-ThinItalic.woff") format("woff"), url("Roboto-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Black.eot");
+  src: local("Roboto Black"), local("Roboto-Black"), url("Roboto-Black.eot?#iefix") format("embedded-opentype"), url("Roboto-Black.woff") format("woff"), url("Roboto-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Light.eot");
+  src: local("Roboto Light"), local("Roboto-Light"), url("Roboto-Light.eot?#iefix") format("embedded-opentype"), url("Roboto-Light.woff") format("woff"), url("Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-LightItalic.eot");
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("Roboto-LightItalic.eot?#iefix") format("embedded-opentype"), url("Roboto-LightItalic.woff") format("woff"), url("Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-BlackItalic.eot");
+  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"), url("Roboto-BlackItalic.woff") format("woff"), url("Roboto-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Thin.eot");
+  src: local("Roboto Thin"), local("Roboto-Thin"), url("Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("Roboto-Thin.woff") format("woff"), url("Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-Blk.eot");
+  src: local("Tactic Sans Black"), local("TacticSans-Blk"), url("TacticSans-Blk.eot?#iefix") format("embedded-opentype"), url("TacticSans-Blk.woff2") format("woff2"), url("TacticSans-Blk.woff") format("woff"), url("TacticSans-Blk.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-Med.eot");
+  src: local("Tactic Sans Medium"), local("TacticSans-Med"), url("TacticSans-Med.eot?#iefix") format("embedded-opentype"), url("TacticSans-Med.woff2") format("woff2"), url("TacticSans-Med.woff") format("woff"), url("TacticSans-Med.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans Ultra";
+  src: url("TacticSans-Ult.eot");
+  src: local("Tactic Sans Ultra"), local("TacticSans-Ult"), url("TacticSans-Ult.eot?#iefix") format("embedded-opentype"), url("TacticSans-Ult.woff2") format("woff2"), url("TacticSans-Ult.woff") format("woff"), url("TacticSans-Ult.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans Ultra";
+  src: url("TacticSans-UltIt.eot");
+  src: local("Tactic Sans Ultra Italic"), local("TacticSans-UltIt"), url("TacticSans-UltIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-UltIt.woff2") format("woff2"), url("TacticSans-UltIt.woff") format("woff"), url("TacticSans-UltIt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-MedIt.eot");
+  src: local("Tactic Sans Medium Italic"), local("TacticSans-MedIt"), url("TacticSans-MedIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-MedIt.woff2") format("woff2"), url("TacticSans-MedIt.woff") format("woff"), url("TacticSans-MedIt.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-BldIt.eot");
+  src: local("Tactic Sans Bold Italic"), local("TacticSans-BldIt"), url("TacticSans-BldIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-BldIt.woff2") format("woff2"), url("TacticSans-BldIt.woff") format("woff"), url("TacticSans-BldIt.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-Thn.eot");
+  src: local("Tactic Sans Thin"), local("TacticSans-Thn"), url("TacticSans-Thn.eot?#iefix") format("embedded-opentype"), url("TacticSans-Thn.woff2") format("woff2"), url("TacticSans-Thn.woff") format("woff"), url("TacticSans-Thn.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-Lgt.eot");
+  src: local("Tactic Sans Light"), local("TacticSans-Lgt"), url("TacticSans-Lgt.eot?#iefix") format("embedded-opentype"), url("TacticSans-Lgt.woff2") format("woff2"), url("TacticSans-Lgt.woff") format("woff"), url("TacticSans-Lgt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-Bld.eot");
+  src: local("Tactic Sans Bold"), local("TacticSans-Bld"), url("TacticSans-Bld.eot?#iefix") format("embedded-opentype"), url("TacticSans-Bld.woff2") format("woff2"), url("TacticSans-Bld.woff") format("woff"), url("TacticSans-Bld.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-RegIt.eot");
+  src: local("Tactic Sans Italic"), local("TacticSans-RegIt"), url("TacticSans-RegIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-RegIt.woff2") format("woff2"), url("TacticSans-RegIt.woff") format("woff"), url("TacticSans-RegIt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-ThnIt.eot");
+  src: local("Tactic Sans Thin Italic"), local("TacticSans-ThnIt"), url("TacticSans-ThnIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-ThnIt.woff2") format("woff2"), url("TacticSans-ThnIt.woff") format("woff"), url("TacticSans-ThnIt.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-BlkIt.eot");
+  src: local("Tactic Sans Black Italic"), local("TacticSans-BlkIt"), url("TacticSans-BlkIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-BlkIt.woff2") format("woff2"), url("TacticSans-BlkIt.woff") format("woff"), url("TacticSans-BlkIt.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-LgtIt.eot");
+  src: local("Tactic Sans Light Italic"), local("TacticSans-LgtIt"), url("TacticSans-LgtIt.eot?#iefix") format("embedded-opentype"), url("TacticSans-LgtIt.woff2") format("woff2"), url("TacticSans-LgtIt.woff") format("woff"), url("TacticSans-LgtIt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("TacticSans-Reg.eot");
+  src: local("Tactic Sans"), local("TacticSans-Reg"), url("TacticSans-Reg.eot?#iefix") format("embedded-opentype"), url("TacticSans-Reg.woff2") format("woff2"), url("TacticSans-Reg.woff") format("woff"), url("TacticSans-Reg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  color: #ECECEC;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  height: 12000px;
+}
+
+.page__section {
+  margin-bottom: 192px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .page__section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .page__section {
+    margin-bottom: 160px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .page__section {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 128px;
+  }
+}
+
+.page__section-title {
+  font-family: "Tactic Sans";
+  font-size: 56px;
+  font-weight: 500;
+  margin: 0 auto 128px;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .page__section-title {
+    margin: 0 auto 96px;
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .page__section-title {
+    margin: 0 auto 64px;
+    font-size: 32px;
+  }
+}
+
+.page__block {
+  gap: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .page__block {
+    gap: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .page__block {
+    gap: 8px;
+  }
+}
+
+.page__element {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+@media screen and (max-width: 768px) {
+  .page__element {
+    border-radius: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .page__element {
+    border-radius: 16px;
+  }
+}
+
+.page__element--color-accent {
+  background: #F37932;
+}
+
+@media screen and (max-width: 480px) {
+  .page__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.ui-button {
+  background: #F37932;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ECECEC;
+  cursor: pointer;
+  font-family: "Tactic Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ui-button--black {
+  background: #1B1B1B;
+}
+
+.ui-button-m {
+  width: 192px;
+  height: 64px;
+}
+
+.ui-button-s {
+  height: 64px;
+  width: 128px;
+}
+
+.ui-button-xs {
+  height: 64px;
+  width: 64px;
+}
+
+.ui-switch {
+  align-items: center;
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  margin: 0 auto 32px;
+  user-select: none;
+  width: 256px;
+}
+
+.ui-switch__case {
+  font-family: "Tactic Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 128px;
+}
+
+.ui-switch__slider {
+  position: absolute;
+  transition: transform 750ms;
+}
+
+.ui-switch__slider--switch {
+  transform: translateX(128px);
+}
+
+.background {
+  background: url(/assets/images/waves.png);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  z-index: 16;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header--fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+.header__menu-wrap {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .header__menu-wrap {
+    padding: 12px;
+  }
+  .header__menu-wrap .ui-button-m {
+    display: none;
+  }
+  .header__menu-wrap .ui-button-xs {
+    display: block;
+  }
+}
+@media screen and (max-width: 360px) {
+  .header__menu-wrap {
+    padding: 8px;
+  }
+}
+
+.header__menu {
+  align-items: center;
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: grid;
+  grid: auto/max-content auto;
+  justify-items: center;
+  padding: 16px;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .header__menu {
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .header__menu {
+    padding: 8px;
+  }
+}
+
+.header__logo {
+  width: 128px;
+}
+@media screen and (max-width: 480px) {
+  .header__logo {
+    width: 80px;
+  }
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .header__nav {
+    display: none;
+  }
+}
+
+.header__nav-link {
+  font-family: "Tactic Sans";
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.header__phone {
+  display: none;
+  font-family: "Tactic Sans";
+  font-size: 18px;
+  justify-content: center;
+  line-height: 18px;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .header__phone {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__phone {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__phone {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+.header__sign-up {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header__sign-up {
+    display: none;
+  }
+}
+
+.header__sign-up--show {
+  display: block;
+}
+
+.header__mobile {
+  flex-shrink: 0;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header__mobile {
+    display: block;
+  }
+}
+
+.hero {
+  display: flex;
+  height: 760px;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 32px;
+  top: 96px;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding: 24px;
+    top: 88px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hero {
+    padding: 8px;
+    top: 80px;
+  }
+}
+
+.hero__img-wrap {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.hero__img {
+  transform: translateX(72px);
+}
+
+.hero__title-wrap {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  height: fit-content;
+  justify-content: space-between;
+  transform: translateY(40%);
+  width: 640px;
+}
+
+.hero__title {
+  font-family: "Tactic Sans";
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 48px 0;
+}
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero__title {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 32px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hero__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.brands {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 72px;
+  margin: 32px auto;
+  mask-image: linear-gradient(90deg, transparent 2%, #fff 20%, #fff 80%, transparent 98%);
+  max-width: 1280px;
+  overflow: hidden;
+  top: 96px;
+}
+@media screen and (max-width: 1024px) {
+  .brands {
+    top: 88px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .brands {
+    top: 80px;
+  }
+}
+
+.brands__list {
+  animation: ticker 25s linear infinite paused;
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+}
+
+@keyframes ticker {
+  to {
+    transform: translate(-100%);
+  }
+}
+.brands__logo {
+  width: 224px;
+  margin: 0 96px;
+}
+
+.about {
+  display: flex;
+  flex-flow: column;
+  gap: 32px;
+  margin: 0 auto 160px;
+  padding: 48px 52px;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    gap: 24px;
+    margin: 0 auto 128px;
+    max-width: 440px;
+    padding: 16px 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about {
+    margin: 0 auto 96px;
+    padding: 8px 12px;
+  }
+}
+
+.about__title {
+  font-family: "Tactic Sans";
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 56px;
+  max-width: 640px;
+}
+.about__title em {
+  font-style: normal;
+  color: #F37932;
+}
+@media screen and (max-width: 768px) {
+  .about__title {
+    max-width: 400px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about__title {
+    max-width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.about__description {
+  align-self: flex-end;
+  max-width: 640px;
+}
+@media screen and (max-width: 768px) {
+  .about__description {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about__description {
+    align-self: flex-start;
+    max-width: 100%;
+  }
+}
+
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin: 0 auto 160px;
+  max-width: 1024px;
+}
+@media screen and (max-width: 768px) {
+  .achievements {
+    gap: 24px;
+    margin-bottom: 128px;
+    max-width: 640px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .achievements {
+    gap: 16px;
+    margin-bottom: 96px;
+    max-width: 100%;
+  }
+}
+
+.achievements-item {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  flex-shrink: 0;
+  height: 288px;
+  justify-content: center;
+  width: 288px;
+}
+@media screen and (max-width: 768px) {
+  .achievements-item {
+    height: 216px;
+    width: 216px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .achievements-item {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+.achievements-title {
+  margin-top: 16px;
+  text-align: center;
+  text-transform: lowercase;
+}
+@media screen and (max-width: 768px) {
+  .achievements-title {
+    margin-top: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .achievements-title {
+    margin-top: 8px;
+  }
+}
+
+.achievements-value {
+  font-family: "Tactic Sans";
+  font-size: 56px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: lowercase;
+}
+@media screen and (max-width: 768px) {
+  .achievements-value {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .achievements-value {
+    font-size: 24px;
+  }
+}
+
+.team {
+  display: grid;
+  grid: 1fr 1fr/1fr 1fr;
+  margin: 0 auto;
+  justify-items: center;
+}
+@media screen and (max-width: 768px) {
+  .team {
+    grid: repeat(4, 1fr)/1fr;
+  }
+}
+
+.team__member-card {
+  cursor: pointer;
+  display: flex;
+  height: 616px;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .team__member-card {
+    height: 512px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team__member-card {
+    height: 480px;
+    max-width: 480px;
+  }
+}
+
+.team__member-details {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: space-around;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateY(60%);
+  transition: transform 750ms;
+  width: 100%;
+}
+
+.team__member-details--slide {
+  transform: translateY(0);
+}
+
+.team__member-name {
+  color: #F37932;
+  font-family: "Tactic Sans";
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 56px;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .team__member-name {
+    line-height: 44px;
+    font-size: 44px;
+  }
+}
+
+.team__member-img-wrap {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.team__member-img {
+  height: 150%;
+  transition: all 750ms;
+}
+
+.team__member-img--hide {
+  filter: blur(16px);
+  height: 100%;
+  opacity: 0.65;
+}
+
+.team__member-achievements {
+  list-style-type: disc;
+  opacity: 0;
+  transition: opacity 750ms;
+  width: 70%;
+}
+@media screen and (max-width: 1024px) {
+  .team__member-achievements {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team__member-achievements {
+    width: 70%;
+  }
+}
+
+.team__member-achievements--show {
+  opacity: 1;
+}
+
+.services {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.services__card {
+  display: flex;
+  flex-flow: row;
+  height: 512px;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .services__card {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services__card {
+    height: 720px;
+    justify-content: center;
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services__card {
+    height: 640px;
+  }
+}
+
+.services__card--mirror {
+  justify-content: flex-start;
+}
+.services__card--mirror .services__card-img {
+  align-items: flex-end;
+}
+.services__card--mirror .services__card-img img {
+  transform: scaleX(-1);
+}
+@media screen and (max-width: 768px) {
+  .services__card--mirror {
+    justify-content: center;
+  }
+}
+
+.services__card-img {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+}
+.services__card-img img {
+  height: 110%;
+}
+@media screen and (max-width: 768px) {
+  .services__card-img img {
+    height: 65%;
+  }
+}
+
+.services__card-details-wrap {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0 32px;
+  width: 480px;
+}
+@media screen and (max-width: 1024px) {
+  .services__card-details-wrap {
+    padding: 0 24px;
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services__card-details-wrap {
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services__card-details-wrap {
+    padding: 8px;
+  }
+}
+
+.services__card-info {
+  margin: 32px 0;
+}
+@media screen and (max-width: 768px) {
+  .services__card-info {
+    margin: 24px 0;
+    text-align: center;
+  }
+}
+
+.services__card-title {
+  color: #F37932;
+  font-family: "Tactic Sans";
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 56px;
+}
+@media screen and (max-width: 1024px) {
+  .services__card-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services__card-title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services__card-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.prices {
+  display: grid;
+  grid: 1fr/repeat(6, 1fr);
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .prices {
+    grid: 1fr 1fr/repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .prices {
+    grid: repeat(3, 1fr)/1fr;
+  }
+}
+
+.prices__card {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  max-height: 800px;
+  padding: 24px 48px;
+}
+.prices__card:nth-child(1) {
+  grid-area: 1/1/1/3;
+}
+.prices__card:nth-child(2) {
+  grid-area: 1/3/1/5;
+}
+.prices__card:nth-child(3) {
+  grid-area: 1/5/1/7;
+}
+@media screen and (max-width: 1024px) {
+  .prices__card:nth-child(1) {
+    grid-area: 1/1/1/3;
+  }
+  .prices__card:nth-child(2) {
+    grid-area: 1/3/1/5;
+  }
+  .prices__card:nth-child(3) {
+    grid-area: 2/2/3/4;
+  }
+}
+@media screen and (max-width: 768px) {
+  .prices__card {
+    max-width: 480px;
+  }
+  .prices__card:nth-child(1) {
+    grid-area: auto;
+  }
+  .prices__card:nth-child(2) {
+    grid-area: auto;
+  }
+  .prices__card:nth-child(3) {
+    grid-area: auto;
+  }
+}
+
+.prices__card-logo {
+  max-width: 256px;
+}
+
+.prices__card-title {
+  font-family: "Tactic Sans";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.prices__card-details {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.prices__card-offer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.prices__card-price-wrap {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  mask-image: linear-gradient(90deg, transparent 5%, #fff 20%, #fff 80%, transparent 95%);
+  overflow: hidden;
+  width: 208px;
+}
+
+.prices__card-price {
+  flex-shrink: 0;
+  font-family: "Tactic Sans";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transform: translateX(-192px);
+  transition: transform 750ms;
+  width: 192px;
+  line-height: 32px;
+}
+
+.prices__card-price--switch {
+  transform: translateX(0);
+}
+
+.prices__card-services {
+  list-style-type: disc;
+}
+
+.faq {
+  display: grid;
+  grid: repeat(4, auto)/auto auto;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .faq {
+    grid: repeat(8, auto)/auto;
+  }
+}
+
+.faq__item {
+  max-width: 612px;
+  height: 96px;
+  padding: 16px;
+  overflow: hidden;
+  transition: height 750ms;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .faq__item {
+    max-width: 456px;
+  }
+}
+
+.faq__button {
+  flex-shrink: 0;
+  transition: background 750ms;
+}
+
+.faq__button-line-h {
+  background: #ECECEC;
+  height: 2px;
+  position: absolute;
+  transform-origin: center;
+  transform: translateX(16px);
+  width: 32px;
+}
+
+.faq__button-line-v {
+  background: #ECECEC;
+  height: 2px;
+  position: absolute;
+  transform-origin: center;
+  transform: translateX(16px) rotate(-90deg);
+  transition: transform 750ms;
+  width: 32px;
+}
+
+.faq__button-line-v--rotate {
+  transform: translateX(16px) rotate(0deg);
+}
+
+.faq__item--open {
+  height: 288px;
+}
+@media screen and (max-width: 1280px) {
+  .faq__item--open {
+    height: 336px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .faq__item--open {
+    height: 392px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .faq__item--open {
+    height: 296px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .faq__item--open {
+    height: 336px;
+  }
+}
+
+.faq__item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq__item-question {
+  font-family: "Tactic Sans";
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+@media screen and (max-width: 1024px) {
+  .faq__item-question {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .faq__item-question {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .faq__item-question {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.faq__item-answer {
+  margin-top: 32px;
+  opacity: 0;
+  transition: opacity 750ms;
+}
+@media screen and (max-width: 768px) {
+  .faq__item-answer {
+    margin-top: 24px;
+  }
+}
+
+.faq__item-answer--show {
+  opacity: 1;
+}

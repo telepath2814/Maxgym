@@ -1,0 +1,15 @@
+@use '../../../sass/partitials/config' as *;
+
+.team__member-details {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-around;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateY(60%);
+    transition: transform $duration-m;
+    width: 100%;
+}

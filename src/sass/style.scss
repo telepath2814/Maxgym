@@ -1,0 +1,112 @@
+// FONTS
+@use '../../assets/fonts/Roboto/Roboto.css';
+@use '../../assets/fonts/TacticSans/TacticSans.css';
+
+// RESET
+@use 'partitials/reset';
+
+// PAGE
+@use '../blocks/page/page';
+@use '../blocks/page/__section/page__section';
+@use '../blocks/page/__section-title/page__section-title.scss';
+@use '../blocks/page/__block/page__block';
+@use '../blocks/page/__element/page__element';
+@use '../blocks/page/__element/--color-accent/page__element--color-accent';
+@use '../blocks/page/__text/page__text';
+
+// UI
+@use '../blocks/ui-button/ui-button';
+@use '../blocks/ui-button/--black/ui-button--black';
+@use '../blocks/ui-button-m/ui-button-m';
+@use '../blocks/ui-button-s/ui-button-s';
+@use '../blocks/ui-button-xs/ui-button-xs';
+@use '../blocks/ui-switch/ui-switch';
+@use '../blocks/ui-switch/__case/ui-switch__case';
+@use '../blocks/ui-switch/__slider/ui-switch__slider';
+@use '../blocks/ui-switch/__slider/--switch/ui-switch__slider--switch';
+
+// BACKGROUND
+@use '../blocks/background/background';
+
+//HEADER
+@use '../blocks/header/header';
+@use '../blocks/header/--fixed/header--fixed';
+@use '../blocks/header/__menu-wrap/header__menu-wrap';
+@use '../blocks/header/__menu/header__menu';
+@use '../blocks/header/__logo/header__logo';
+@use '../blocks/header/__nav/header__nav';
+@use '../blocks/header/__nav-link/header__nav-link';
+@use '../blocks/header/__phone/header__phone';
+@use '../blocks/header/__sign-up/header__sign-up';
+@use '../blocks/header/__sign-up/--show/header__sign-up--show';
+@use '../blocks/header/__mobile/header__mobile';
+
+// HERO
+@use '../blocks/hero/hero';
+@use '../blocks/hero/__img-wrap/hero__img-wrap';
+@use '../blocks/hero/__img/hero__img';
+@use '../blocks/hero/__title-wrap/hero__title-wrap';
+@use '../blocks/hero/__title/hero_title';
+
+// BRANDS
+@use '../blocks/brands/brands';
+@use '../blocks/brands/__list/brands__list';
+@use '../blocks/brands/__logo/brands__logo';
+
+//ABOUT
+@use '../blocks/about/about';
+@use '../blocks/about/__title/about__title';
+@use '../blocks/about/__description/about__description';
+
+//ACHIEVEMENTS
+@use '../blocks/achievements/achievements';
+@use '../blocks/achievements/__item/achievements-item';
+@use '../blocks/achievements/__title/achievements-title';
+@use '../blocks/achievements/__value/achievements-value';
+
+//TEAM
+@use '../blocks/team/team';
+@use '../blocks/team/__member-card/team__member-card';
+@use '../blocks/team/__member-details/team__member-details';
+@use '../blocks/team/__member-details/--slide/team__membe-details--slide';
+@use '../blocks/team/__member-name/team__member-name';
+@use '../blocks/team/__member-img-wrap/team__member-img-wrap';
+@use '../blocks/team/__member-img/team__member-img';
+@use '../blocks/team/__member-img/--hide/team__member-img--hide';
+@use '../blocks/team/__member-achievements/team__member-achievements';
+@use '../blocks/team/__member-achievements/--show/team__member-achievements--show';
+
+// SERVICES
+@use '../blocks/services/services';
+@use '../blocks/services/__card/services__card';
+@use '../blocks/services/__card/--mirror/services__card--mirror';
+@use '../blocks/services/__card-img/services__card-img';
+@use '../blocks/services/__card-details-wrap/services__card-details-wrap';
+@use '../blocks/services/__card-details/services__card-details';
+@use '../blocks/services/__card-info/services__card-info';
+@use '../blocks/services/__card-title/services__card-title';
+
+// PRICES
+@use '../blocks/prices/prices';
+@use '../blocks/prices/__card/prices__card';
+@use '../blocks/prices/__logo/prices__card-logo';
+@use '../blocks/prices/__title/prices__card-title.scss';
+@use '../blocks/prices/__card-details/prices__card-details';
+@use '../blocks/prices/__card-offer/prices__card-offer';
+@use '../blocks/prices/__card-price-wrap/prices__card-price-wrap';
+@use '../blocks/prices/__card-price/prices__card-price';
+@use '../blocks/prices/__card-price/--switch/prices__card-price--switch';
+@use '../blocks/prices/__card-services/prices__card-services';
+
+// FAQ
+@use '../blocks/faq/faq';
+@use '../blocks/faq/__item/faq__item';
+@use '../blocks/faq/__button/faq__button';
+@use '../blocks/faq/__button-line-h/faq__button-line-h';
+@use '../blocks/faq/__button-line-v/faq__button-line-v';
+@use '../blocks/faq/__button-line-v/--rotate/faq__button-line-v--rotate';
+@use '../blocks/faq/__item/--open/faq__item--open';
+@use '../blocks/faq/__item-title/faq__item-title';
+@use '../blocks/faq/__item-question/faq__item-question';
+@use '../blocks/faq/__item-answer/faq__item-answer';
+@use '../blocks/faq/__item-answer/--show/faq__item-answer--show';

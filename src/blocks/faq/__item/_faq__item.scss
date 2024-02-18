@@ -1,0 +1,15 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.faq__item {
+    max-width: 612px;
+    height: 96px;
+    padding: 16px;
+    overflow: hidden;
+    transition: height $duration-m;
+    cursor: pointer;
+
+    @include screen-m {
+        max-width: 456px;
+    }
+}

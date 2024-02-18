@@ -1,0 +1,21 @@
+@use '../../../../sass/partitials/mixins' as *;
+
+.faq__item--open {
+    height: 288px;
+
+    @include screen-xl {
+        height: 336px;
+    }
+
+    @include screen-l {
+        height: 392px;
+    }
+
+    @include screen-m {
+        height: 296px;
+    }
+
+    @include screen-s {
+        height: 336px;
+    }
+}

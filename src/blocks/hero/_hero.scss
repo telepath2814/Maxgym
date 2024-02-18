@@ -1,0 +1,29 @@
+@use '../../sass/partitials/mixins' as *;
+
+.hero {
+    display: flex;
+    height: 760px;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 32px;
+    top: 96px;
+    width: 100%;
+
+    @include screen-l {
+        padding: 24px;
+        top: 88px;
+    }
+
+    @include screen-m {
+        padding: 24px;
+    }
+
+    @include screen-s {
+        padding: 16px;
+    }
+
+    @include screen-xs {
+        padding: 8px;
+        top: 80px;
+    }
+}

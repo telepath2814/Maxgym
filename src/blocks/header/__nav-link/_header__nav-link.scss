@@ -1,0 +1,8 @@
+@use '../../../sass/partitials/config' as *;
+
+.header__nav-link {
+    font-family: $font-secondary;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+}

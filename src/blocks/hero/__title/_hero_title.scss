@@ -1,0 +1,26 @@
+@use '../../../sass/partitials/config' as *;
+@use '../../../sass/partitials/mixins' as *;
+
+.hero__title {
+    font-family: $font-secondary;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 48px 0;
+
+    @include screen-m {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    @include screen-s {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 32px 0;
+    }
+
+    @include screen-xs {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

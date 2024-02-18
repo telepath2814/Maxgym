@@ -1,0 +1,13 @@
+@use '../../../sass/partitials/config' as *;
+
+.prices__card-price {
+    flex-shrink: 0;
+    font-family: $font-secondary;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-192px);
+    transition: transform $duration-m;
+    width: 192px;
+    line-height: 32px;
+}
